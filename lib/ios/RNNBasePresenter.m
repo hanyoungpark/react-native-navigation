@@ -28,7 +28,7 @@
     RNNNavigationOptions *withDefault =
         (RNNNavigationOptions *)[self.boundViewController.resolveOptions
             withDefault:self.defaultOptions];
-    _prefersHomeIndicatorAutoHidden = [withDefault.layout.autoHideHomeIndicator withDefault:NO];
+    _prefersHomeIndicatorAutoHidden = [withDefault.layout.autoHideHomeIndicator withDefault:YES];
 }
 
 - (void)componentDidAppear {
