@@ -173,6 +173,10 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
 
 @implementation MMDrawerController
 
+- (BOOL)prefersHomeIndicatorAutoHidden {
+	return YES;
+}
+
 #pragma mark - Init
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
