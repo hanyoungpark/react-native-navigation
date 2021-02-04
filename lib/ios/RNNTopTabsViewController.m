@@ -78,4 +78,8 @@
     [super viewDidLoad];
 }
 
+- (BOOL)prefersHomeIndicatorAutoHidden {
+	return YES;
+}
+
 @end
